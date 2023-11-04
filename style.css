@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-content: center;
   padding: 6rem;
-  background-color: #f5f5f5;
+  background-image: url(./image/bacround.jpg);
   font-family: "Inter", sans-serif;
 }
 @media (max-width: 60em) {
@@ -38,7 +38,7 @@ body {
   }
 }
 .grid__item {
-  background-color: #fff;
+  background-color: orange;
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ body {
   transition: 0.2s;
 }
 .card__btn:hover, .card__btn:active {
-  background-color: #dce4ff;
+  background-color: red;
 }
 .card__btn:hover span, .card__btn:active span {
   margin-left: 1.5rem;
